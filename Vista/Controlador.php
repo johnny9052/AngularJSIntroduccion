@@ -9,7 +9,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title></title>
         <link href="../Recursos/js/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../Recursos/css/controlador.css" rel="stylesheet" type="text/css"/>        
+        <link href="../Recursos/css/filtro.css" rel="stylesheet" type="text/css"/>        
         <script src="../Recursos/js/angular/angular.min.js" type="text/javascript"></script>
         <script src="../Recursos/js/General/controlador.js" type="text/javascript"></script>
     </head>
@@ -33,9 +33,9 @@ and open the template in the editor.
             <ul>
                 <!-- Recorre el listado de tareas, y por cada elemento incrusta
                 el codigo que se encuentra dentro del LI-->
-                <li ng-repeat="tarea in tareas">
-                    <label class="hecho-{{tarea.hecho}}">{{tarea.texto}}</label>
-                    <input type="checkbox" ng-model="tarea.hecho">                                        
+                <li ng-repeat="obj in tareas">
+                    <label class="hecho-{{obj.hecho}}">{{obj.texto}}</label>
+                    <input type="checkbox" ng-model="obj.hecho">                                        
                 </li>
             </ul>  
 

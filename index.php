@@ -19,10 +19,13 @@ and open the template in the editor.
             <div class="list-group">
                 <a href="Vista/Modelo.php" class="list-group-item">1. Modelo AngularJS</a>                
                 <a href="Vista/Controlador.php" class="list-group-item">2. Controlador AngularJS</a>                
+                <a href="Vista/Filtros.php" class="list-group-item">3. Filtros de busqueda</a>                
+                <a href="Vista/Fabricas.php" class="list-group-item">4. Fabricas (Compartir datos entre controladores)</a>  
+                <a href="Vista/Formulario.php" class="list-group-item">5. Formularios</a>  
             </div>
         </div>
 
 
-        Aqui vamos   https://www.youtube.com/watch?v=qh5fJzGBlYo&list=PL6LPvqvHdclbrYqIdNLm5zOodZrebZaln&index=4
+        Aqui vamos  https://www.youtube.com/watch?v=l25VkqsvkfY&index=8&list=PL6LPvqvHdclbrYqIdNLm5zOodZrebZaln
     </body>
 </html>

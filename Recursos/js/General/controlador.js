@@ -1,4 +1,8 @@
 /*Referencia al app a utilizar, que es el ng-app*/
+
+/*[] se utiliza para inyeccion de dependencias, como no se va a utilizar 
+ * ninguna por el momento se deja vacio*/
+
 var app = angular.module("appControladorTareas", []);
 
 /*Toda funcion de controlador debe tener un $scope*/
