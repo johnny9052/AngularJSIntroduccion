@@ -1,0 +1,1 @@
+<div class="page-header"><h1>{{textoVariable.titulo}} <small>{{textoVariable.subtitulo}}</small></h1></div>

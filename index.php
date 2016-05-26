@@ -22,6 +22,8 @@ and open the template in the editor.
                 <a href="Vista/Filtros.php" class="list-group-item">3. Filtros de busqueda</a>                
                 <a href="Vista/Fabricas.php" class="list-group-item">4. Fabricas (Compartir datos entre controladores)</a>  
                 <a href="Vista/Formulario.php" class="list-group-item">5. Formularios</a>  
+                <a href="Vista/Rutas.php" class="list-group-item">6. Rutas</a>  
+                <a href="Vista/Directiva.php" class="list-group-item">7. Directivas</a>  
             </div>
         </div>
 
