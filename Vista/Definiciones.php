@@ -10,7 +10,8 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-
+        
+                       
         <b>0. Programas para instalar:</b> GIT, NodeJS,                   
         <br>        
         <br>        
