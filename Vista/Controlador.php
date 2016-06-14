@@ -15,12 +15,9 @@ and open the template in the editor.
     </head>
     <body ng-app="appControladorTareas">
         <!-- ng-app: Aplicacion angular   ng-model: Modelo angular -->
-        <div ng-controller="ControladorTareas">
-            <h1>{{tareas[0].texto}}</h1>
-        </div>
-
         <!-- Recorrer el listado de tareas, e insertar code por cada una -->
         <div ng-controller="ControladorTareas">
+            <h1>{{tareas[0].texto}}</h1>
 
             <!--Muestra el total de tareas-->
             <h1>{{contarTareasRestantes()}} de {{tareas.length}}</h1>
@@ -41,6 +38,7 @@ and open the template in the editor.
 
 
             <form ng-submit="agregarTarea()">
+                <!-- Se asocia al modelo-->
                 <input type="text" size="30" placeholder="Agregar una nueva tarea"
                        ng-model="txtNuevaTarea">
                 <button class="btn btn-primary" type="submit">Agregar</button>

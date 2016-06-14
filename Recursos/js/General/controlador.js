@@ -1,3 +1,5 @@
+"use strict";
+
 /*Referencia al app a utilizar, que es el ng-app*/
 
 /*[] se utiliza para inyeccion de dependencias, como no se va a utilizar 
@@ -8,6 +10,7 @@ var app = angular.module("appControladorTareas", []);
 /*Toda funcion de controlador debe tener un $scope*/
 /*app.controller(nombre de la funcion)*/
 app.controller('ControladorTareas', function ($scope) {
+    /*Se define el objeto*/
     $scope.tareas = [
         {texto: 'Este es el mensaje 1', hecho: true},
         {texto: 'Este es el mensaje 2', hecho: false},
@@ -27,6 +30,7 @@ app.controller('ControladorTareas', function ($scope) {
         /*Funcion angular para recorrer con un foreach*/
         /*Recorre el listado de tareas, retornandolo como obj*/
         angular.forEach($scope.tareas, function (obj) {
+            /*Si no esta la tarea realizada no se incrementa*/
             cont += obj.hecho ? 0 : 1;
         });
         return cont;
@@ -36,12 +40,12 @@ app.controller('ControladorTareas', function ($scope) {
     $scope.eliminarTareasRealizadas = function () {
 
         var tareasViejas = $scope.tareas;
-        $scope.tareas=[];
+        $scope.tareas = [];
         /*Funcion angular para recorrer con un foreach*/
         /*Recorre el listado de tareas, retornandolo como obj*/
         angular.forEach(tareasViejas, function (obj) {
             (!obj.hecho) ? $scope.tareas.push(obj) : "";
-        });        
+        });
     };
 });
 
