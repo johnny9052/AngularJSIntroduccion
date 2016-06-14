@@ -18,6 +18,7 @@ and open the template in the editor.
 
         <div ng-controller="ControllerEncabezado">
             <div class="container">
+                <!-- Este tema no es relevante-->
                 <!-- Como atributo -->
                 <!--<div di-encabezado></div>-->
                 

@@ -14,7 +14,6 @@ and open the template in the editor.
     <body>
         <!-- CONTENEDOR PRINCIPAL -->
         <div class="container">  
-
             <h2>Tematica basica de AngularJS</h2>
             <div class="list-group">
                 <a href="Vista/Definiciones.php" class="list-group-item">0. Definiciones</a>                
