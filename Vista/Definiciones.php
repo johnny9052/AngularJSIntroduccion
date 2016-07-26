@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         
                        
-        <b>0. Programas para instalar:</b> GIT, NodeJS,                   
+        <b>0. Programas para instalar:</b> GIT  { https://desktop.github.com/ }, NodeJS { https://nodejs.org/en/ },                   
         <br>        
         <br>        
         <b>1. "REST"</b> es un paradigma, mientras <b>"RESTful"</b> describe el uso de ese paradigma
