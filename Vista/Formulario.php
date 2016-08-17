@@ -19,10 +19,11 @@ and open the template in the editor.
             <!-- ng-class(aplica una clase si se cumple la condicion) -->
             <!-- form-group clase bootstrap para encerrar subforms -->
             <div class="form-group"  
-                 <!-- Si es invalido, marquelo con has-error, si es valido 
-                 marquelo con has-success -->
-                 ng-class="{'has-error':formulario.txtNombre.$invalid, 'has-success' : formulario.txtNombre.$valid}">
-                 <label for="txtNombre">
+                 ng-class="{'has-error': formulario.txtNombre.$invalid, 'has-success': formulario.txtNombre.$valid}">
+                <!-- Si es invalido, marquelo con has-error, si es valido 
+                marquelo con has-success -->
+
+                <label for="txtNombre">
                     Nombre
                 </label>
 
@@ -33,9 +34,9 @@ and open the template in the editor.
 
             <!-- form-group clase bootstrap para encerrar subforms -->
             <div class="form-group" 
-                 <!-- Si es invalido, marquelo con has-error, si es valido 
-                 marquelo con has-success -->
                  ng-class="{'has-error':formulario.txtEmail.$invalid, 'has-success' : formulario.txtEmail.$valid}">
+                 <!-- Si es invalido, marquelo con has-error, si es valido 
+                 marquelo con has-success -->                 
                  <label for="txtEmail">
                     Email
                 </label>

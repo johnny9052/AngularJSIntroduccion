@@ -9,8 +9,9 @@ app.controller('ControladorFiltro', function ($scope) {
     $scope.empleados =
             [
                 {
-                    nombre: 'Ana', primerApellido: 'Guzman', segundoApellido: 'Cardona',
-                    fecha: new Date(), salario: 4234, telefono: 3174235432, bono: 1.5232
+                    nombre: 'Ana', primerApellido: 'Guzman', 
+                    segundoApellido: 'Cardona',fecha: new Date(), 
+                    salario: 4234, telefono: 3174235432, bono: 1.5232
                 },
                 {
                     nombre: 'Pedro', primerApellido: 'Sarmiento', segundoApellido: 'Montealegre',

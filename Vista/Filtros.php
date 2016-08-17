@@ -72,15 +72,17 @@ and open the template in the editor.
                             </tr>
                         </thead>    
 
-                        <tbody>
-                            <!-- | orderBy:nombreAtributo Filtro angular para 
+                        
+                         <!-- | orderBy:nombreAtributo Filtro angular para 
                             ordenar los elementos recorridos con el ciclo, 
                             donde el atributo debe tener asignado el nombre
                             del atributo por el cual se quiere ordenar-->
                             
                             <!-- El filter:nombreModelo filtra automaticamente 
                             los datos a partir del valor del modelo-->
-                            <tr ng-repeat="obj in empleados| orderBy:ordenSeleccionado | filter:buscar">
+                        <tbody>                           
+                            <tr ng-repeat="obj in empleados | 
+                                        orderBy:ordenSeleccionado | filter:buscar">
                                 <!-- | uppercase (coloca el texto en mayuscula) --> 
                                 <!-- | date (Organiza la fecha que da js) --> 
                                 <td>{{obj.nombre| uppercase}}</td>

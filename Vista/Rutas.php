@@ -17,15 +17,19 @@
         <nav class="navbar navbar-default" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Desplegar navegacion</span>
+                <!-- Boton para el menu movil -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" 
+                        data-target="#bs-example-navbar-collapse-1">
+<!--                    <span class="sr-only">Desplegar navegacion</span>-->
+                    <!-- Lineas del boton para desplegar menu movil -->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Menu</a>
+                <a class="navbar-brand" href="#/">Menu</a>
             </div>
 
+            <!-- MENU DE OPCIONES -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="#/empleados/">Empleados</a></li>
@@ -35,7 +39,7 @@
         </nav>
 
         <div class="container">           
-
+            <!-- DONDE SE VISUALIZARA EL CONTENIDO DE LA MASTER PAGE -->
             <div ng-view></div>
 
         </div>
