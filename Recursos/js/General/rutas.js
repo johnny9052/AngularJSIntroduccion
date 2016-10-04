@@ -1,6 +1,15 @@
 /*Se referencia la app*/
 var app = angular.module('miAp', ['ngRoute']);
 
+
+
+
+
+
+
+
+
+
 /*Se asocian las diferentes paginas disponibles, indicando el controlador*/
 app.config(function ($routeProvider) {
     $routeProvider
@@ -65,6 +74,9 @@ app.controller('ControladorEmpleados', function ($scope, Empleados) {
 /****************************************************************/
 /*********************FORMULARIO EMPLEADOS***********************/
 /****************************************************************/
+
+
+
 
 app.factory('Tareas', function () {
     return [{texto: 'Tarea 1', hecho: true},

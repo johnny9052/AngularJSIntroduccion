@@ -13,12 +13,12 @@ $resource = $_SERVER['REQUEST_URI'];
 switch (strtolower($method)) {
     case 'get':
 
-        $id = (isset($_GET['id']) ? $_GET['id'] : "");
+        $id = (isset($_REQUEST['id']) ? $_REQUEST['id'] : "");
 
-        if ($id != "") {
-             echo '[{"texto":"primer mensaje","hecho":false},{"texto":"segundo mensaje","hecho":true},{"texto":"tercer mensaje","hecho":true}]';
-        } else {
+        if ($id != "") {            
             echo '[{"texto":"primer mensaje","hecho":false},{"texto":"segundo mensaje","hecho":true}]';
+        } else {
+            echo '[{"texto":"primer mensaje","hecho":false},{"texto":"segundo mensaje","hecho":true},{"texto":"tercer mensaje","hecho":true}]';
         }
         break;
 
@@ -27,23 +27,21 @@ switch (strtolower($method)) {
         $data = $_POST;
         $data = json_encode($data);
         //echo $data;
-        
-        echo '[{"msj":"Aqui nos llego"}]';
+
+        echo '[{"msj":"Aqui nos llego", "accion":"Guardar"}]';
 
         break;
 
     case 'put':
-
         /* Modificar */
-        $id = (isset($_GET['id']) ? $_GET['id'] : "");
+        $id = (isset($_REQUEST['id']) ? $_REQUEST['id'] : "");
         parse_str(file_get_contents("php://input"), $post_vars);
-        echo json_encode($post_vars) . ' y su id es ' . $id;
-
+        echo json_encode($post_vars) . ' y su id es ' . $id;        
         break;
 
     case 'delete':
         /* Borrar */
-        $id = (isset($_GET['id']) ? $_GET['id'] : "");
+        $id = (isset($_REQUEST['id']) ? $_REQUEST['id'] : "");
         echo 'El id es: ' . $id;
         break;
 }

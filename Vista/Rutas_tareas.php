@@ -1,3 +1,6 @@
+
+
+
 <hr>
 <span>{{restantes()}} de {{tareas.length}}</span>
 [ <a class="text-danger" href="" ng-click="eliminar()">eliminar</a> ]
@@ -12,3 +15,4 @@
          ng-model="textoNuevaTarea">
   <button class="btn btn-primary" type="submit">Agregar</button>
 </form>
+

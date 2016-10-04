@@ -44,7 +44,7 @@ class Errors {
             415 => 'Unsupported Media Type',
             416 => 'Requested Range Not Satisfiable',
             417 => 'Expectation Failed',
-            500 => 'Internal Server Error',
+            500 => 'Internal Server Error',           
             501 => 'Not Implemented',
             502 => 'Bad Gateway',
             503 => 'Service Unavailable',
@@ -54,3 +54,5 @@ class Errors {
     }
 
 }
+
+

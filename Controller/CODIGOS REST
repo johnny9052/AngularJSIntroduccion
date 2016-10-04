@@ -1,0 +1,15 @@
+Una vez sabemos que mod_rewrite está activado lo que necesitamos es un archivo .htaccess ¿Qué es un archivo .htaccess? Es un fichero de configuración utilizado por los servidores web Apache. Son archivos de texto.
+
+
+
+Estos códigos son la respuesta que da el servidor web a la solicitud HTTP del cliente y nos brindan información ya sea de éxito o fracaso en la solicitud. Puede ver más información sobre estos códigos en la wiki Códigos de Estado. En resumen se pueden dar 5 tipos de respuesta:
+1xx – Informativo
+2xx – Éxito
+3xx – Redirección
+4xx – Error del Cliente
+5xx – Error del Servidor
+Los códigos de respuesta que utilizaremos en este tutorial son:
+500 : Internal Server Error → Se ha producido un error interno
+422 : Unprocessable Entity → Entidad no procesable
+400 : Bad Request → La solicitud contiene sintaxis errónea y no debería repetirse
+204 : No Content → La petición se ha completado con éxito pero su respuesta no tiene ningún contenido

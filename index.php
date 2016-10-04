@@ -28,10 +28,11 @@ and open the template in the editor.
                 <a href="Vista/tutorialOficialAngular.php" class="list-group-item">9. Tutorial oficial Angular (NO EXPLICAR)</a>  
                 <a href="Vista/ConexionSQL.php" class="list-group-item">10. Conexion a DB (NO EXPLICAR)</a>  
                 <a href="Vista/LogIn_Index.php" class="list-group-item">11. LogIn (NO EXPLICAR)</a>  
+                <a href="Vista/bowerConfiguration.php" class="list-group-item">12. Configuracion del bower e instalacion de dependencias</a>  
+                <a href="Vista/logIn.php" class="list-group-item">13. Servicios, modularidad en archivos js, envio de datos al servidor, manejo de sesiones, promesas e includes</a>  
+                <a href="Vista/REST.php" class="list-group-item">14. REST</a>  
+                <a href="Vista/rolesPDO.php" class="list-group-item">15. PDO</a>  
             </div>
         </div>
-
-
-
     </body>
 </html>

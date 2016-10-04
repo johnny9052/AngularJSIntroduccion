@@ -31,7 +31,9 @@
             <hr>
             
             <div ng-controller="ControladorTres">
-                <button class="btn btn-primary" ng-click="resetear()">Mensaje Inicial</button>
+                <button class="btn btn-primary" ng-click="resetear()">
+                    Mensaje Inicial
+                </button>
             </div>
         </div>
     </div>
